@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>攝護腺癌新一代口服藥物治療：革新與希望</title>
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom styles to ensure Inter font and smooth scrolling -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8fafc; /* Light gray background */
+        }
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+        /* Styling for horizontal rule replacement */
+        .hr-divider {
+            border: none;
+            border-top: 2px solid #e2e8f0;
+            margin: 2rem 0;
+        }
+
+        /* Table specific styles for better readability on small screens */
+        .table-container {
+            overflow-x: auto; /* Enable horizontal scrolling for the table */
+            -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+            padding-bottom: 10px; /* Add some padding for the scrollbar on mobile */
+        }
+        table {
+            width: 100%;
+            min-width: 680px; /* Minimum width for the table to ensure content readability */
+            border-collapse: collapse;
+            font-size: 0.85rem; /* Even smaller font for table for extreme compactness */
+            table-layout: fixed; /* Fixed table layout for better column distribution */
+        }
+        th, td {
+            padding: 4px 6px; /* Greatly reduced padding */
+            border: 1px solid #e2e8f0;
+            text-align: left; /* Ensure text is left-aligned in table cells */
+            vertical-align: top;
+            word-wrap: break-word; /* Allow long words to break and wrap within cells */
+        }
+        th {
+            background-color: #e0f2fe; /* Light blue for headers */
+            font-weight: 600;
+            color: #2563eb; /* Darker blue text */
+        }
+        td {
+            background-color: #ffffff;
+            color: #4a5568;
+        }
+        tr:nth-child(even) td {
+            background-color: #f8fafc; /* Slightly darker for even rows */
+        }
+        .stage-header {
+            background-color: #bfdbfe; /* Medium blue for stage headers in table */
+            font-weight: 700;
+            color: #1e40af;
+            text-align: center;
+        }
+        /* Adjust specific column widths for extreme compactness */
+        table th:nth-child(1), table td:nth-child(1) { width: 18%; } /* 階段 */
+        table th:nth-child(2), table td:nth-child(2) { width: 10%; } /* 轉移 */
+        table th:nth-child(3), table td:nth-child(3) { width: 8%; }  /* 化療 */
+        table th:nth-child(4), table td:nth-child(4) { width: 25%; } /* 建議藥物/治療 */
+        table th:nth-child(5), table td:nth-child(5) { width: 39%; } /* 策略/備註 */
+    </style>
+</head>
+<body class="p-4 sm:p-8 md:p-12 lg:p-16">
+
+    <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden my-8 p-6 sm:p-8 md:p-10">
+
+        <!-- Main Title -->
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-blue-800 text-center mb-4 leading-tight">
+            攝護腺癌新一代口服藥物治療：革新與希望
+        </h1>
+        <p class="text-base sm:text-lg text-gray-700 mb-6 text-left">
+            攝護腺癌（Prostate Cancer）的治療在近年來取得了顯著的突破，特別是新一代口服藥物的問世，為患者帶來了更有效、更便利的治療選擇。這些藥物透過精準的分子靶向機制，有效控制癌細胞的生長與轉移，不僅延長了患者的生命，也大幅提升了他們的生活品質。
+        </p>
+
+        <div class="hr-divider"></div>
+
+        <!-- What are New Generation Oral Medications? -->
+        <h2 class="text-2xl sm:text-3xl font-bold text-blue-700 mb-4 flex items-center justify-start">
+            <span class="mr-2 text-blue-500">💊</span> 什麼是新一代口服藥物？
+        </h2>
+        <p class="text-base sm:text-lg text-gray-700 mb-4 text-left">
+            新一代口服藥物主要針對雄性素受體（Androgen Receptor, AR）訊號通路進行干預，這是攝護腺癌細胞生長和存活的關鍵驅動因素。它們的設計比傳統荷爾蒙治療更為精準，可以更有效地抑制雄性素的作用，即使在體內雄性素水平很低的情況下，也能繼續發揮抗癌作用。
+        </p>
+        <p class="text-base sm:text-lg text-gray-700 mb-6 text-left">
+            目前，最常見且廣泛應用的新一代口服藥物主要包括兩大類：
+        </p>
+
+        <div class="mb-6 border border-blue-200 rounded-lg p-4 bg-blue-50 text-left">
+            <h3 class="text-xl sm:text-2xl font-semibold text-blue-800 mb-3">
+                1. 新型雄性素受體抑制劑 (Androgen Receptor Signaling Inhibitors, ARSI)
+            </h3>
+            <ul class="list-disc list-inside text-base sm:text-lg text-gray-700 space-y-2 mb-3">
+                <li>
+                    <strong>作用機制</strong>：這些藥物直接作用於雄性素受體，阻斷雄性素與受體的結合，並抑制受體在細胞核內的轉位及DNA結合，從多個層面抑制雄性素受體訊號的活化。
+                </li>
+                <li>
+                    <strong>代表藥物</strong>：
+                    <ul class="list-circle list-inside ml-5 mt-1 space-y-1">
+                        <li>Enzalutamide (恩雜魯胺)</li>
+                        <li>Apalutamide (阿帕魯胺)</li>
+                        <li>Darolutamide (達羅魯胺)</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="mb-6 border border-purple-200 rounded-lg p-4 bg-purple-50 text-left">
+            <h3 class="text-xl sm:text-2xl font-semibold text-purple-800 mb-3">
+                2. 雄性素生物合成抑制劑 (Androgen Biosynthesis Inhibitors)
+            </h3>
+            <ul class="list-disc list-inside text-base sm:text-lg text-gray-700 space-y-2 mb-3">
+                <li>
+                    <strong>作用機制</strong>：這類藥物主要透過抑制細胞色素P450 17A1 (CYP17A1) 酶的活性，阻止雄性素在睪丸、腎上腺及腫瘤組織內的合成，從源頭上減少雄性素的供應。
+                </li>
+                <li>
+                    <strong>代表藥物</strong>：
+                    <ul class="list-circle list-inside ml-5 mt-1 space-y-1">
+                        <li>Abiraterone Acetate (醋酸阿比特龍)</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hr-divider"></div>
+
+        <!-- Why are New Generation Oral Medications revolutionary? -->
+        <h2 class="text-2xl sm:text-3xl font-bold text-blue-700 mb-4 flex items-center justify-start">
+            <span class="mr-2 text-blue-500">✨</span> 為何新一代口服藥物是革新？
+        </h2>
+        <p class="text-base sm:text-lg text-gray-700 mb-4 text-left">
+            新一代口服藥物的革新之處在於它們能夠：
+        </p>
+        <ul class="list-disc list-inside text-base sm:text-lg text-gray-700 space-y-3 mb-6 text-left">
+            <li>
+                <strong>更全面地阻斷雄性素訊號</strong>：相較於傳統的去勢療法，它們能更徹底地抑制雄性素對癌細胞的刺激。
+            </li>
+            <li>
+                <strong>有效治療去勢抗性攝護腺癌</strong>：即使在傳統去勢療法失效後（進入去勢抗性階段），這些藥物仍能有效控制疾病。
+            </li>
+            <li class="font-bold text-red-600">
+                <strong>治療提前延長生命：臨床試驗已證實，將這些藥物從晚期治療「提前」至早期（如轉移性荷爾蒙敏感性攝護腺癌或高風險非轉移性去勢抗性攝護腺癌），能顯著延緩疾病進展、降低死亡風險，並大幅延長患者的整體存活期。這是治療策略上的一大突破。</strong>
+            </li>
+            <li>
+                <strong>提升生活品質</strong>：作為口服藥物，它們通常比化學治療更便利，副作用相對可控，有助於患者維持更好的生活品質。
+            </li>
+        </ul>
+
+        <div class="hr-divider"></div>
+
+        <!-- Treatment Benefits of Early Treatment -->
+        <section class="mb-8 bg-green-50 border-l-4 border-green-500 rounded-lg p-6 shadow-md text-left">
+            <h2 class="text-2xl sm:text-3xl font-bold text-green-700 mb-4 flex items-center justify-start">
+                <span class="mr-2 text-green-600">🚀</span> 提前治療的好處
+            </h2>
+            <p class="text-base sm:text-lg text-gray-700 mb-4">
+                過去，新藥常被保留在疾病晚期才使用。但隨著醫學證據的累積，我們發現「提前治療」就像一場策略性的超前部署，對攝護腺癌患者有著巨大的好處：
+            </p>
+            <ul class="list-disc list-inside text-base sm:text-lg text-gray-700 space-y-2 mb-4">
+                <li>
+                    <strong class="text-red-700">顯著延長整體存活時間：</strong> 這是最關鍵的效益！透過在疾病早期（如mHsPC或高風險nmCRPC階段）就使用新一代口服藥物，能大幅延長患者的壽命。
+                </li>
+                <li>
+                    **延緩疾病進展：** 阻止或減緩癌細胞的生長和擴散，特別是延遲轉移的發生。
+                </li>
+                <li>
+                    **降低骨骼相關事件發生率：** 減少骨痛、骨折等因骨轉移引起的併發症，從而改善生活品質。
+                </li>
+                <li>
+                    **提升生活品質：** 早期治療通常能更好地控制症狀，讓患者在更長的時間內保持更好的身體機能和日常活動能力。
+                </li>
+                <li>
+                    **優化後續治療選擇：** 早期有效控制疾病，可能為未來保留更多治療選項，減少對更具侵入性或副作用較大治療的依賴。
+                </li>
+            </ul>
+            <p class="text-base sm:text-lg text-gray-700 italic">
+                <strong class="text-green-800">簡而言之，早一步介入，就為患者多爭取了一大段有品質的生命時光！</strong>
+            </p>
+        </section>
+
+        <div class="hr-divider"></div>
+
+        <!-- Treatment Strategies and Drug Selection by Stage -->
+        <h2 class="text-2xl sm:text-3xl font-bold text-blue-700 mb-4 flex items-center justify-start">
+            <span class="mr-2 text-blue-500">🎯</span> 各階段的治療策略與藥物選擇
+        </h2>
+        <p class="text-base sm:text-lg text-gray-700 mb-6 text-left">
+            新一代口服藥物在攝護腺癌的不同階段都扮演著關鍵角色。醫生會根據患者的具體病情、疾病階段、是否有轉移以及過往治療史來制定最合適的方案。
+        </p>
+
+        <!-- Stage 1: hsPC / mCsPC Textual -->
+        <div class="mb-6 border border-gray-200 rounded-lg p-4 bg-white shadow-sm text-left">
+            <h3 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-2">
+                1. 荷爾蒙敏感性攝護腺癌 (Hormone-sensitive Prostate Cancer, hsPC) / 轉移性去勢敏感性攝護腺癌 (Metastatic Castration-Sensitive Prostate Cancer, mCsPC)
+            </h3>
+            <p class="text-base sm:text-lg text-gray-700 mb-2">
+                **特點**：癌細胞仍對荷爾蒙治療有反應，分為非轉移性和轉移性兩種。mCsPC 指癌細胞已轉移但仍敏感。
+            </p>
+            <p class="text-base sm:text-lg text-gray-700 mb-2">
+                **治療策略**：在標準去勢療法 (ADT) 的基礎上，<strong class="text-blue-600">早期聯合應用新一代口服雄性素受體抑制劑或雄性素生物合成抑制劑</strong>。這種強化治療已成為國際指南的首選，能顯著提升患者的存活率和無影像學惡化存活期。
+            </p>
+            <p class="text-base sm:text-lg text-gray-700 mb-2">
+                **主要支持性臨床試驗**：<span class="font-semibold text-blue-600">LATITUDE, ENZAMET, TITAN, ARASENS</span>
+            </p>
+            <p class="text-base sm:text-lg text-gray-700">
+                **藥物選擇**：Enzalutamide, Apalutamide, Darolutamide, Abiraterone Acetate (需聯合Prednisone)
+            </p>
+        </div>
+
+        <!-- Stage 2: nmCRPC Textual -->
+        <div class="mb-6 border border-gray-200 rounded-lg p-4 bg-white shadow-sm text-left">
+            <h3 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-2">
+                2. 非轉移性去勢抗性攝護腺癌 (Non-metastatic Castration-Resistant Prostate Cancer, nmCRPC)
+            </h3>
+            <p class="text-base sm:text-lg text-gray-700 mb-2">
+                **特點**：血清PSA值上升，但影像學檢查尚未發現轉移病灶，且已對去勢療法產生抗性。特別是PSA倍增時間短的高風險患者。
+            </p>
+            <p class="text-base sm:text-lg text-gray-700 mb-2">
+                **治療策略**：對於高風險nmCRPC患者，使用<strong class="text-blue-600">新型口服雄性素受體抑制劑</strong>是標準治療選項。主要目標是延緩疾病進展至轉移性階段，延長無轉移存活期（MFS）。
+            </p>
+            <p class="text-base sm:text-lg text-gray-700 mb-2">
+                **主要支持性臨床試驗**：<span class="font-semibold text-blue-600">PROSPER, SPARTAN, ARAMIS</span>
+            </p>
+            <p class="text-base sm:text-lg text-gray-700">
+                **藥物選擇**：Enzalutamide, Apalutamide, Darolutamide
+            </p>
+        </div>
+
+        <!-- Stage 3: mCRPC Textual -->
+        <div class="mb-6 border border-gray-200 rounded-lg p-4 bg-white shadow-sm text-left">
+            <h3 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-2">
+                3. 轉移性去勢抗性攝護腺癌 (Metastatic Castration-Resistant Prostate Cancer, mCRPC)
+            </h3>
+            <p class="text-base sm:text-lg text-gray-700 mb-2">
+                **特點**：癌細胞已轉移，且對去勢療法產生抗性。
+            </p>
+            <p class="text-base sm:text-lg text-gray-700 mb-2">
+                **治療策略**：此階段治療選擇多元，新一代口服藥物仍扮演重要角色。醫生會根據患者先前的治療史、轉移部位（有無內臟轉移）、基因檢測結果等因素選擇治療方案。
+            </p>
+            <p class="text-base sm:text-lg text-gray-700 mb-2">
+                **主要支持性臨床試驗** (化療前線)：<span class="font-semibold text-blue-600">PREVAIL, COU-AA-302</span>
+            </p>
+            <p class="text-base sm:text-lg text-gray-700">
+                **藥物選擇**：
+                <ul class="list-circle list-inside ml-5 mt-1 space-y-1">
+                    <li>**化療前線**：Enzalutamide, Abiraterone Acetate (需聯合Prednisone)</li>
+                    <li>**化療後線**：Enzalutamide, Abiraterone Acetate (需聯合Prednisone)</li>
+                    <li>**其他治療**：對於具有特定基因突變（如BRCA）的患者，可考慮 PARP抑制劑 (例如 Olaparib)。</li>
+                </ul>
+            </p>
+        </div>
+
+        <div class="hr-divider"></div>
+
+        <!-- Treatment Timing Overview Table -->
+        <section class="mb-8">
+            <h2 class="text-2xl sm:text-3xl font-bold text-blue-700 mb-6 border-b-2 pb-2 border-blue-200 flex items-center justify-start">
+                <span class="mr-2 text-blue-500">🗓️</span> 治療時機總覽
+            </h2>
+            <p class="text-base sm:text-lg text-gray-700 font-semibold mb-4 bg-yellow-50 border-l-4 border-yellow-500 p-3 rounded-md text-left">
+                <span class="text-yellow-800">小提示：</span>下方表格資訊量大，若您使用手機瀏覽，建議<strong class="text-yellow-900">將手機橫放</strong>，或左右滑動表格，便能輕鬆瀏覽所有詳細內容喔！
+            </p>
+            <div class="table-container shadow-lg rounded-lg overflow-hidden">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>階段</th>
+                            <th>轉移</th>
+                            <th>化療</th>
+                            <th>建議藥物 / 治療</th>
+                            <th>策略 / 備註</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- hsPC (Hormone-sensitive Prostate Cancer) / mCsPC (Metastatic Castration-Sensitive Prostate Cancer) -->
+                        <tr>
+                            <td rowspan="3" class="stage-header">hsPC / mCsPC<br>(荷爾蒙敏感性 / 轉移性去勢敏感性)</td>
+                            <td colspan="2">初期 (有無內臟)</td>
+                            <td>
+                                Enzalutamide<br>
+                                Apalutamide<br>
+                                Darolutamide<br>
+                                Abiraterone Acetate
+                            </td>
+                            <td>
+                                <strong class="text-blue-700">早期強化：</strong>與ADT聯用，提升存活與無影像惡化存活期。
+                                <br>試驗: LATITUDE, ENZAMET, TITAN, ARASENS
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>無臟轉移</td>
+                            <td>未化</td>
+                            <td>
+                                Enzalutamide<br>
+                                Apalutamide<br>
+                                Darolutamide<br>
+                                Abiraterone Acetate
+                            </td>
+                            <td>不適/拒絕化療時重要選項。</td>
+                        </tr>
+                        <tr>
+                            <td>有臟轉移</td>
+                            <td>未化</td>
+                            <td>
+                                Enzalutamide<br>
+                                Apalutamide<br>
+                                Darolutamide<br>
+                                Abiraterone Acetate
+                            </td>
+                            <td>有臟轉移仍可ADT強化，尤其高腫瘤負荷。</td>
+                        </tr>
+
+                        <!-- nmCRPC (Non-metastatic Castration-Resistant Prostate Cancer) -->
+                        <tr>
+                            <td class="stage-header">nmCRPC<br>(非轉移性去勢抗性)</td>
+                            <td colspan="2">無內臟轉移 (高風險: PSA倍增短)</td>
+                            <td>
+                                Enzalutamide<br>
+                                Apalutamide<br>
+                                Darolutamide
+                            </td>
+                            <td>
+                                目標<strong class="text-blue-700">延緩轉移</strong>，延長無轉移存活期（MFS）。
+                                <br>試驗: PROSPER, SPARTAN, ARAMIS
+                            </td>
+                        </tr>
+
+                        <!-- mCRPC (Metastatic Castration-Resistant Prostate Cancer) -->
+                        <tr>
+                            <td rowspan="4" class="stage-header">mCRPC<br>(轉移性去勢抗性)</td>
+                            <td>無臟轉移</td>
+                            <td>化療前</td>
+                            <td>
+                                Enzalutamide<br>
+                                Abiraterone Acetate
+                            </td>
+                            <td>
+                                一/二線治療，適緩慢惡化/不適化療。
+                                <br>試驗: PREVAIL, COU-AA-302
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>無臟轉移</td>
+                            <td>化療後</td>
+                            <td>
+                                Enzalutamide<br>
+                                Abiraterone Acetate
+                            </td>
+                            <td>化療失敗後選項。</td>
+                        </tr>
+                        <tr>
+                            <td>有臟轉移</td>
+                            <td>化療前</td>
+                            <td>
+                                Enzalutamide<br>
+                                Abiraterone Acetate
+                            </td>
+                            <td>
+                                有臟轉移仍重要。快速/症狀明顯者化療優先。
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>有臟轉移</td>
+                            <td>化療後</td>
+                            <td>
+                                Enzalutamide<br>
+                                Abiraterone Acetate<br>
+                                (如需，可考慮PARP抑制劑, 放射治療, 臨床試驗等)
+                            </td>
+                            <td>
+                                化療失敗後mCRPC，綜合考量患者狀態/腫瘤特徵。
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <div class="hr-divider"></div>
+
+        <!-- Clinical Trials Reference Section -->
+        <section class="mb-8 bg-green-50 border-l-4 border-green-500 rounded-lg p-6 shadow-md text-left">
+            <h2 class="text-2xl sm:text-3xl font-bold text-green-700 mb-4 border-b-2 pb-2 border-green-200 flex items-center justify-start">
+                <span class="mr-2 text-green-600">🔬</span> 主要臨床試驗參考
+            </h2>
+            <p class="text-base sm:text-lg text-gray-700 mb-4">
+                以下列出支持新一代口服藥物在攝護腺癌治療中應用的一些關鍵性臨床試驗：
+            </p>
+            <ul class="list-disc list-inside text-base sm:text-lg text-gray-700 space-y-3">
+                <li>
+                    <strong>mHsPC/mCsPC 階段 (荷爾蒙敏感性 / 轉移性去勢敏感性攝護腺癌) 強化治療：</strong>
+                    <ul class="list-circle list-inside ml-5 mt-1 space-y-1">
+                        <li class="text-left">
+                            <strong>LATITUDE:</strong> 評估 Abiraterone Acetate 加 Prednisone 聯合 ADT 用於新診斷高風險 mHSPC 患者的療效。
+                        </li>
+                        <li class="text-left">
+                            <strong>ENZAMET:</strong> 評估 Enzalutamide 聯合 ADT 用於新診斷 mHSPC 患者的療效。
+                        </li>
+                        <li class="text-left">
+                            <strong>TITAN:</strong> 評估 Apalutamide 聯合 ADT 用於新診斷 mHSPC 患者的療效。
+                        </li>
+                        <li class="text-left">
+                            <strong>ARASENS:</strong> 評估 Darolutamide 聯合 ADT 及 Docetaxel 化療用於新診斷轉移性荷爾蒙敏感性攝護腺癌患者的療效。
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>nmCRPC 階段 (非轉移性去勢抗性攝護腺癌) ：</strong>
+                    <ul class="list-circle list-inside ml-5 mt-1 space-y-1">
+                        <li class="text-left">
+                            <strong>PROSPER:</strong> 評估 Enzalutamide 用於高風險 nmCRPC 患者的療效，顯著延長無轉移存活期（MFS）。
+                        </li>
+                        <li class="text-left">
+                            <strong>SPARTAN:</strong> 評估 Apalutamide 用於高風險 nmCRPC 患者的療效，顯著延長無轉移存活期（MFS）。
+                        </li>
+                        <li class="text-left">
+                            <strong>ARAMIS:</strong> 評估 Darolutamide 用於高風險 nmCRPC 患者的療效，顯著延長無轉移存活期（MFS）。
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>mCRPC 階段 (轉移性去勢抗性攝護腺癌) ：</strong>
+                    <ul class="list-circle list-inside ml-5 mt-1 space-y-1">
+                        <li class="text-left">
+                            <strong>PREVAIL:</strong> 評估 Enzalutamide 用於化療前 mCRPC 患者的療效。
+                        </li>
+                        <li class="text-left">
+                            <strong>COU-AA-302:</strong> 評估 Abiraterone Acetate 加 Prednisone 用於化療前 mCRPC 患者的療效。
+                        </li>
+                        <li class="text-left">
+                            針對化療後 mCRPC 的藥物（如 Enzalutamide, Abiraterone Acetate）及 PARP 抑制劑（如 Olaparib），亦有多項關鍵性臨床試驗支持其應用。
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <div class="hr-divider"></div>
+
+        <!-- Important Considerations & Disclaimer -->
+        <h2 class="text-2xl sm:text-3xl font-bold text-blue-700 mb-4 flex items-center justify-start">
+            <span class="mr-2 text-red-500">⚠️</span> 重要的考量與免責聲明
+        </h2>
+        <p class="text-base sm:text-lg text-gray-700 mb-4 text-left">
+            雖然新一代口服藥物為攝護腺癌患者帶來了巨大的希望，但每位患者的情況都是獨特的。治療方案的選擇應由<strong class="text-red-700">專業醫師</strong>根據患者的具體病情、病理報告、基因檢測結果、既往病史和個人身體狀況等因素綜合評估後制定。
+        </p>
+        <div class="bg-red-100 border-l-4 border-red-500 text-red-700 p-4 mb-6 rounded-lg text-left">
+            <p class="font-bold text-lg">免責聲明 (Disclaimer)</p>
+            <p class="text-base mt-2">
+                本網頁內容僅供醫學資訊參考之用，不能替代專業醫師的診斷與治療建議。
+                攝護腺癌的治療方案應由專業醫師根據患者的具體病情、病理報告、基因檢測結果、既往病史和個人身體狀況等因素綜合評估後制定。
+                <strong class="text-red-800">特別是，衛生福利部所核准之治療指引與藥物給付規範為台灣地區臨床實踐之主要依據。</strong>
+                切勿自行判斷或更改治療計劃。
+                如有任何健康疑慮，請務必諮詢您的醫師或其他合格的醫療專業人員。
+                本網站不對因使用或信賴本頁面內容而導致的任何損失或損害承擔責任。
+            </p>
+        </div>
+
+        <div class="hr-divider"></div>
+
+        <!-- Reference Guidelines -->
+        <h2 class="text-2xl sm:text-3xl font-bold text-blue-700 mb-4 flex items-center justify-start">
+            <span class="mr-2 text-blue-500">📚</span> 參考指南
+        </h2>
+        <p class="text-base sm:text-lg text-gray-700 mb-4 text-left">
+            本內容綜合參考了多個國際權威醫學組織的最新指南，包括但不限於：
+        </p>
+        <ul class="list-disc list-inside text-base sm:text-lg text-gray-700 space-y-2 mb-6 text-left">
+            <li><strong>美國泌尿科醫學會 (AUA) Guidelines</strong></li>
+            <li><strong>歐洲泌尿科醫學會 (EAU) Guidelines</strong></li>
+            <li><strong>國家綜合癌症網絡 (NCCN) Guidelines</strong></li>
+            <li><strong>基於證據的醫學 (Evidence-Based Medicine, EBD) 推薦</strong></li>
+            <li>相關國際臨床試驗結果</li>
+        </ul>
+
+        <p class="text-base sm:text-lg text-gray-700 text-left mt-8">
+            攝護腺癌的治療正在不斷進步。透過與醫師的密切合作，患者可以找到最適合自己的治療方案，並期待更長久、更有品質的生命。
+        </p>
+
+    </div>
+
+    <footer class="text-center text-gray-600 text-sm mt-8">
+        &copy; 2025 攝護腺癌治療資訊。保留所有權利。
+    </footer>
+
+</body>
+</html>
+
